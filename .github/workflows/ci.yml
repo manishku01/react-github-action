@@ -1,8 +1,8 @@
-name: ci-pipeline
+name: greetings
 on: [push, workflow_dispatch]
 jobs:
-  greeting:
+  say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting message
+      - name: Say Hello
         run: echo "Hello, World!"
