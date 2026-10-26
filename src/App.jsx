@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <p>Hello, Vite + React!</p>
+      <p>Hello, Vite + React! with new features</p>
     </>
   );
 }
